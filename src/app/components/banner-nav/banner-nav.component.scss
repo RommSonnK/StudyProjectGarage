@@ -1,0 +1,103 @@
+.form-box {
+  margin-top: calc(-6vw - 3vh);
+  padding: 0 calc(3vw + 2vh) calc(3vw + 2vh) calc(3vw + 2vh);
+}
+
+ion-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: calc(1.5vw + 1.5vh);
+  padding: calc(1vw + 2vh);
+  border: var(--ion-color-secondary) solid 1px;
+  border-radius: 15px;
+  background: var(--ion-color-medium);
+}
+
+ion-button {
+  width: auto;
+  font-size: calc(1vw + 1vh);
+  border-radius: 15px;
+  border: none;
+  background: var(--ion-color-secondary);
+  overflow: hidden;
+}
+
+ion-input {
+  width: auto;
+  border: 1px solid var(--ion-color-success);
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 0;
+}
+
+ion-button, ion-input:hover {
+  border: 2px solid var(--ion-color-warning);
+}
+
+@media screen and (width > 430px) {
+  ion-list {
+    padding: calc(2vw + 1.5vh);
+    row-gap: calc(2vw + 1.5vh);
+  }
+  ion-input {
+    width: 80%;
+  }
+  ion-button {
+    width: 35%;
+  }
+}
+@media screen and (width > 680px) {
+  ion-list {
+    row-gap: calc(2.5vw + 2vh);
+  }
+}
+@media screen and (width > 900px) {
+  section {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    grid-gap: calc(1vw + 2vh);
+    padding: calc(1vw + 2vh) 0 calc(1vw + 2vh) calc(1vw + 2vh);
+    margin: calc(3vw + 2vh);
+    background: var(--ion-color-tertiary);
+    border: var(--ion-color-warning) solid 1px;
+    border-radius: 15px;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: calc(2.5vw + 1.5vh);
+    grid-column: 2;
+  }
+  .form-box {
+    grid-area: 1 / 1;
+    margin: 0;
+    padding: 0;
+  }
+  ion-list {
+    padding: calc(1vw + .75vh);
+    row-gap: calc(1vw + 1vh);
+  }
+  h1 {
+    font-size: calc(1.5vw + 1vh);
+  }
+  ion-button {
+    width: 55%;
+  }
+}
+@media screen and (width > 1200px) {
+  ion-list {
+    height: calc(20vw + 23vh);
+    padding: calc(1.5vw + 1.75vh);
+    row-gap: calc(1.5vw + 1.5vh);
+  }
+  ion-input, ion-button {
+    font-size: calc(1vw + 1.5vh);
+    height: calc(3vw + 2vh);
+  }
+}
+
+
+

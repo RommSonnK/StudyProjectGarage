@@ -1,3 +1,4 @@
+
 > [!info] Prerequis
 > 
 ><font color="#4bacc6"> **<u>Installer Docker</u>**</font>
@@ -63,45 +64,4 @@
     
 
 
-## <u>Comment cree un Employer ? </u>
-
-- Connecter vous avec un compte administrateur sur le site web 
-	- Mail : vincentparrot@gmail.com
-	- Mdp : vincentMdp
-
-
-- Rendez vous sur Ajouter un employer
-- Saisissez votre ajout 
-- Valider 
-
-- Félicitation le nouvelle employer est crée 
-- Il pourra s'identifier avec le mail/mdp saisie lors de la création 
-
-
-## <u>Comment cree un service ? </u>
-
-- Connecter vous avec un compte administrateur sur le site web 
-	- Mail : vincentparrot@gmail.com
-	- Mdp : vincentMdp
-
-
-- Rendez vous sur Ajouter un service
-- Saisissez votre ajout 
-- Valider 
-
-- Félicitation votre nouveau service est publier
-## <u>Comment modérer un commentaire ? </u>
-
-- Connecter vous avec un compte administrateur ou employer
-
-- Rendez vous sur approuver un commentaire
-- Dans le tableau des commentaire en attente qui s'est ouvert 
-sélectionner celui qui vous intéresse, appuyer sur le bouton vert pour l'approuver et 
-le bouton rouge pour le refuser.
-- Valider 
-
-- Félicitation vos commentaires on était modérer 
-
-*C Romain Fleuriot* 
-*ECF Novembre 2023 
-Studi - Graduate Flutter*
+- C Romain Fleuriot 

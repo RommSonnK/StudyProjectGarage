@@ -1,0 +1,11 @@
+.comment-slider {
+  column-gap: calc(5vw + 2vh);
+  padding-block: calc(3vw + 2vh);
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.comment-slider::-webkit-scrollbar {
+  display: none;
+}
